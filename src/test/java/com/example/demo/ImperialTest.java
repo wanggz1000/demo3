@@ -15,4 +15,11 @@ public class ImperialTest {
         double result = exp.centimeter(a);
         assertEquals(expectedResult, result);
     }
+    @Test
+    void meterTest1(){
+        double a=10;
+        double expectedResult=9.140767824497257;
+        double result=exp.meter(a);
+        assertEquals(expectedResult,result);
+    }
 }

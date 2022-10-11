@@ -14,4 +14,9 @@ public class ImperialCalculatorController {
         return a.centimeter(in);
     }
 
+    @RequestMapping("/meter")
+    public double meter(@RequestParam double yd){
+        return  a.meter(yd);
+    }
+
 }
